@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+</head>
+
+<body>
+    <script>
+        var num = 31
+        var i = 2
+        if (num < 2) {
+            console.log("It is not a prime number");
+        }
+        while (i < num) {
+            num % i == 0;
+            console.log("It is not a prime");
+            i++;
+
+        }else {
+            cosole.log("It is a prime number")
+        }
+
+    </script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOCUMENT</title>
+  </head>
+  <body>                                    
+    <script>
+     var num=prompt("Enter to check prime number");
+     if(num == 1){
+         console.log( num + " is not a prime number or composite number");
+     } else{
+         for(var i=2; i<num; i=i+1 ){
+             if(num%i == 0){
+             var result= ( num + " is not a prime number");
+             break;
+             }else{
+                 var result= (num + " is a prime number");
+             }
+         }
+         console.log(result);
+     }
+    </script>
+  </body>
+</html>
